@@ -1,2 +1,1 @@
 # Jokenpo
-# JokenpoSpockLagarto-
