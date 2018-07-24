@@ -11,6 +11,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Criando variaveis
     ImageView img_Player1, img_Player2;
     Random rd_Player1, rd_Player2;
     TextView txt_winner;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //iniciando variaveis
         btn_play = (Button) findViewById(R.id.btn_play);
         img_Player1 = (ImageView) findViewById(R.id.img_Player1);
         img_Player2 = (ImageView) findViewById(R.id.img_Player2);
